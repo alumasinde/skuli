@@ -1,0 +1,28 @@
+{"timestamp":"2026-07-03T06:48:29+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":1,"email":"alumasinde@gmail.com"}}
+{"timestamp":"2026-07-03T06:48:29+02:00","level":"INFO","message":"login successful","context":{"user_id":1}}
+{"timestamp":"2026-07-03T07:05:17+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":1,"email":"alumasinde@gmail.com"}}
+{"timestamp":"2026-07-03T07:05:17+02:00","level":"INFO","message":"login successful","context":{"user_id":1}}
+{"timestamp":"2026-07-03T08:13:31+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":1,"email":"alumasinde@gmail.com"}}
+{"timestamp":"2026-07-03T08:13:31+02:00","level":"INFO","message":"login successful","context":{"user_id":1}}
+{"timestamp":"2026-07-03T09:22:08+02:00","level":"ERROR","message":"uncaught exception","context":{"message":"require(C:\\xampp\\htdocs\\ssms\/views\/auth\/find_school.php): Failed to open stream: No such file or directory","file":"C:\\xampp\\htdocs\\ssms\\Modules\\Auth\\Controllers\\WebAuthController.php","line":43,"trace":"#0 C:\\xampp\\htdocs\\ssms\\Modules\\Auth\\Controllers\\WebAuthController.php(43): {closure}(2, 'require(C:\\\\xamp...', 'C:\\\\xampp\\\\htdocs...', 43)\n#1 C:\\xampp\\htdocs\\ssms\\Modules\\Auth\\Controllers\\WebAuthController.php(43): require()\n#2 C:\\xampp\\htdocs\\ssms\\Core\\Router.php(259): Modules\\Auth\\Controllers\\WebAuthController->showLogin(Array)\n#3 C:\\xampp\\htdocs\\ssms\\Core\\Router.php(104): Core\\Router->invoke(Array, Array, Object(DI\\Container))\n#4 C:\\xampp\\htdocs\\ssms\\Core\\Router.php(190): Core\\Router->Core\\{closure}()\n#5 C:\\xampp\\htdocs\\ssms\\Core\\Router.php(96): Core\\Router->runMiddleware(Array, Array, Object(Closure))\n#6 C:\\xampp\\htdocs\\ssms\\public\\index.php(52): Core\\Router->dispatch('GET', '\/login', Object(DI\\Container))\n#7 {main}"}}
+{"timestamp":"2026-07-03T09:59:47+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":2,"email":"alumasinde@gmail.com"}}
+{"timestamp":"2026-07-03T09:59:47+02:00","level":"WARN","message":"user not found","context":{"email":"alumasinde@gmail.com","tenant_id":2}}
+{"timestamp":"2026-07-03T10:00:35+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":2,"email":"alumasinde@gmail.com"}}
+{"timestamp":"2026-07-03T10:00:35+02:00","level":"INFO","message":"login successful","context":{"user_id":13}}
+{"timestamp":"2026-07-03T10:03:54+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":1,"email":"alumasinde@gmail.com"}}
+{"timestamp":"2026-07-03T10:03:54+02:00","level":"INFO","message":"login successful","context":{"user_id":1}}
+{"timestamp":"2026-07-03T10:09:28+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":2,"email":"alumasinde@gmail.com"}}
+{"timestamp":"2026-07-03T10:09:28+02:00","level":"INFO","message":"login successful","context":{"user_id":13}}
+{"timestamp":"2026-07-03T10:17:14+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":2,"email":"alumasinde@gmail.com"}}
+{"timestamp":"2026-07-03T10:17:14+02:00","level":"INFO","message":"login successful","context":{"user_id":13}}
+{"timestamp":"2026-07-03T10:59:27+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":3,"email":"albertmasinde4@gmail.com"}}
+{"timestamp":"2026-07-03T10:59:27+02:00","level":"WARN","message":"password verification failed","context":{"user_id":14}}
+{"timestamp":"2026-07-03T11:00:14+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":3,"email":"albertmasinde4@gmail.com"}}
+{"timestamp":"2026-07-03T11:00:15+02:00","level":"WARN","message":"password verification failed","context":{"user_id":14}}
+{"timestamp":"2026-07-03T11:00:33+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":3,"email":"albertmasinde4@gmail.com"}}
+{"timestamp":"2026-07-03T11:00:33+02:00","level":"INFO","message":"login successful","context":{"user_id":14}}
+{"timestamp":"2026-07-03T11:01:18+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":3,"email":"albertmasinde4@gmail.com"}}
+{"timestamp":"2026-07-03T11:01:18+02:00","level":"INFO","message":"login successful","context":{"user_id":14}}
+{"timestamp":"2026-07-03T11:16:49+02:00","level":"INFO","message":"login attempt","context":{"tenant_id":5,"email":"pmwangi@utumishi.com"}}
+{"timestamp":"2026-07-03T11:16:49+02:00","level":"INFO","message":"login successful","context":{"user_id":16}}
+{"timestamp":"2026-07-03T11:19:47+02:00","level":"ERROR","message":"uncaught exception","context":{"message":"Controller method index not found","file":"C:\\xampp\\htdocs\\ssms\\Core\\Router.php","line":254,"trace":"#0 C:\\xampp\\htdocs\\ssms\\Core\\Router.php(104): Core\\Router->invoke(Array, Array, Object(DI\\Container))\n#1 C:\\xampp\\htdocs\\ssms\\Core\\Router.php(190): Core\\Router->Core\\{closure}()\n#2 C:\\xampp\\htdocs\\ssms\\Core\\Router.php(213): Core\\Router->runMiddleware(Array, Array, Object(Closure))\n#3 C:\\xampp\\htdocs\\ssms\\Core\\Middleware\\AuthenticateWeb.php(24): Core\\Router->Core\\{closure}()\n#4 C:\\xampp\\htdocs\\ssms\\Core\\Router.php(206): Core\\Middleware\\AuthenticateWeb->handle(Array, Object(Closure))\n#5 C:\\xampp\\htdocs\\ssms\\Core\\Router.php(96): Core\\Router->runMiddleware(Array, Array, Object(Closure))\n#6 C:\\xampp\\htdocs\\ssms\\public\\index.php(52): Core\\Router->dispatch('GET', '\/attendance', Object(DI\\Container))\n#7 {main}"}}

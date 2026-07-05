@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# If the request is not for an existing file or directory, route to index.php.
+# This is what gives us clean URLs like /api/v1/students with no .php
+# anywhere, and ensures no other PHP file is ever directly reachable.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+
+# Never serve dotfiles (.env, .git, etc.)
+RewriteRule ^\.(?!well-known) - [F]

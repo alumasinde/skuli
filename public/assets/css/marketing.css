@@ -1,0 +1,11 @@
+.navbar-brand { font-weight: 800; }
+.hero { background: linear-gradient(160deg, #0f172a, #1e3a8a); color: #fff; }
+footer { background: #0f172a; color: rgba(255,255,255,.7); }
+footer a { color: rgba(255,255,255,.7); }
+
+/* Mobile nav toggle — pairs with nav-toggle.js */
+.collapse { display: none; }
+.collapse.show { display: block; }
+@media (min-width: 992px) {
+  .navbar-collapse { display: flex !important; } /* always visible at desktop width */
+}
